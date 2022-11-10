@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <title>Document</title>
+  </head>
+  <style>
+    .content {
+      /* background-color: khaki; */
+      display: flex;
+      justify-content: center;
+    }
+    table {
+      border: 1px solid black;
+      margin: 40px 0px;
+      width: 75%;
+      /* color: white; */
+      /* background-color: red; */
+    }
+    td {
+      border: 1px solid black;
+      font-size: 18px;
+      padding: 10px;
+      text-align: center;
+    } 
+  </style>
+  <body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="content">
+        <table>
+          <thead>
+            <tr>
+              <td>No</td>
+              <td>ID</td>
+              <td>Book Name</td>
+              <td>Publisher</td>
+            </tr>
+          </thead>
+          <tbody id="show-product">
+            <tr>
+              <td>1</td>
+              <td>..</td>
+              <td>..</td>
+              <td>..</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    <div id="root"></div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>

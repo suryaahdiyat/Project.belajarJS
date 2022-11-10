@@ -1,0 +1,29 @@
+{
+    "products": [
+      {
+        "productName": "Nasi Goreng",
+        "description": "Nasi Goreng Original",
+        "stock": 5,
+        "price": 10000
+      },
+      {
+        "productName": "Ayam Bakar Limau",
+        "description": "Ayam Bakar dengan rasa Limau tambahan Khas Aceh",
+        "stock": 10,
+        "price": 15000
+      },
+      {
+        "productName": "Ikan Nila Goreng",
+        "description": "Ikan Nila Segar di goreng dengan bumbu rahasia",
+        "stock": 15,
+        "price": 15000
+      },
+      {
+        "productName": "Es Cincau",
+        "description": "Es Cincau Original",
+        "stock": 20,
+        "price": 5000
+      }
+    ]
+  }
+  
